@@ -66,3 +66,4 @@ void swap(listint_t **list, listint_t *p1, listint_t *p2)
 	if (!p2->prev)
 		*list = p2;
 	print_list((const listint_t *) *list);
+}
